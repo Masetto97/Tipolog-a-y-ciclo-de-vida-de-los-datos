@@ -1,0 +1,32 @@
+# Variables de configuracion del proyecto
+
+# Rutas necesarias para el Crawlwler
+"RUTA_SITE_DESCARGA": {
+                        "0":"wallapop"}
+# RUTA RELATIVA A LA RUTA DE ESCRITURA DE LOS DATOS PARA DESCARGAR EL PROYECTO
+# Ruta Base de las decargas del Crawler
+"RUTA_BASE_DESCARGAS_CRAWLER": "datos/crawler_wallapop"
+# "RUTA_BASE_DESCARGAS_CRAWLER": "datos/crawler_wallapop"
+
+# URLS necesarias para el Crawler
+# URLS DE LOS SITES A DESCARGAR
+"URLS_DESCARGA": {
+  "0": "https://es.wallapop.com/"}
+
+# Parámetros del navegador (Crawler)
+# USER AGENT PARA LOS DETECTORES DE ROBOTS
+"USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+
+
+# Lista de elementos de la url a descargar
+"LISTA_BLANCA": {
+                  "0": "item"
+}
+
+# 0 Para deshabilitar el crawler y 1 para habilitarlo
+"ENABLE_CRAWLER": "1"
+
+# Número de páginas descargadas por el Crawler (cuando llegue a se numero se parará el proceso)
+"NUMERO_PAG_DESCARGAS": "30"
+
+# Parámetros para la obtencion de informacion
